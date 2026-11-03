@@ -194,7 +194,7 @@ show_button = tk.Button(
 show_button.grid(row=9, column=0, columnspan=3, pady=5)
 
 
-# Krijojmë tekstin ku do të shfaqet rezultati
+
 result_label = tk.Label(
     window,
     text='Your suggestion will appear here',
@@ -210,3 +210,4 @@ result_label.grid(row=10, column=0, columnspan=3, pady=10)
 
 # Mbajmë dritaren të hapur
 window.mainloop()
+
